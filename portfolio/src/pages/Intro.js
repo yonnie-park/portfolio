@@ -9,11 +9,11 @@ const Intro = () => {
   return (
     <div className="intro">
       <Header/>
-      <div className='intro__intro'>
-        <h1>👋 Nice to meet you Jessie,</h1>
+      <section id='intro__intro'>
+        <h1>👋 Nice to meet you VISITOR,</h1>
         <h3>Let me show you around.</h3>
-      </div>
-      <div className='intro__profile'>
+      </section>
+      <section id='intro__profile'>
         <img className="intro__mypic" src={me} alt="me"/>
         <div className='intro__description'>
         <h1> I'm Jung Yeon</h1>
@@ -24,15 +24,15 @@ const Intro = () => {
         </p>
         </div>
         
-      </div>
-      <div className="intro__proj">
+      </section>
+      <section id="intro__proj">
         <h1>These are the projects I've been working on</h1>
         <div className="intro__projects">
         <Project/>
         <Project/>
         <Project/>
         </div>
-      </div>
+      </section>
       <div className=""></div>
     </div>
   );
