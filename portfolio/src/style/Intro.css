@@ -1,0 +1,47 @@
+.intro{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.intro__intro{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+.intro__profile{
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.intro__description{
+    width: 500px;
+    margin-left:100px;
+}
+.intro__mypic{
+    height:80vh;
+    object-fit: cover;
+}
+.intro__proj{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro__projects{
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
